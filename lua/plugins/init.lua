@@ -28,5 +28,6 @@ return {
     config = true
   },
     { 'adamkleo/bnf-highlighting' },
+    { 'uga-rosa/cmake-buf.nvim' },
 }
 
