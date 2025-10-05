@@ -29,6 +29,4 @@ require("config.lsp")
 -- Load completion configuration
 require("config.completion")
 
-require("config.cmake-config")
-
 vim.cmd("colorscheme catppuccin")

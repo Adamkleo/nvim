@@ -29,6 +29,5 @@ return {
   },
     { 'adamkleo/bnf-highlighting' },
 
-    { 'Civitasv/cmake-tools.nvim', opts = {} }
 }
 
