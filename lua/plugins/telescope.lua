@@ -23,7 +23,7 @@ return {
         vim.keymap.set('n', '<leader>tf', builtin.find_files, { desc = 'Find files' })
         vim.keymap.set('n', '<leader>tg', builtin.live_grep, { desc = 'Live grep' })
         vim.keymap.set('n', '<leader>tb', builtin.buffers, { desc = 'Find buffers' })
-        
+	vim.keymap.set('n', '<leader>tl', builtin.lsp_workspace_symbols, { desc = 'Sys-wide search' })        
         -- Hidden file keymaps
         vim.keymap.set('n', '<leader>tF', function()
             builtin.find_files({ hidden = true })
